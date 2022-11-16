@@ -88,3 +88,5 @@ class Apllication_contact:
     def destroy(self):
         self.wd.quit()
 
+
+

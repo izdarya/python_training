@@ -8,7 +8,7 @@ from application_contact import Apllication_contact
 def app(request):
     fixture =Apllication_contact()
     request.addfinalizer(fixture.destroy)
-    return fixture
+    return fixtur
 def test_add_contact(app):
 
     app.login(username="admin", password="secret")
